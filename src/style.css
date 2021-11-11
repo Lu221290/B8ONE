@@ -1,0 +1,48 @@
+
+.App{
+  display: flex;
+  max-width: auto;
+  height: auto;
+  align-items: center;
+  background-size: contain;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 5px; 
+ border-color: #f00 #0f0 #00f #fc0;
+ padding: 32px;
+}
+
+img{
+  max-width: 240px;
+  height: 240px;
+  top: 32px;
+  left: 32px;
+  bleed: Pass throunh;
+}
+
+h2{
+  color: #DA4B4F;
+}
+
+h4{
+  color:#B5B5B6;
+}
+
+button{
+  width: 240px;
+  height: 48px;
+  left: 32px;
+  top: 488px;
+  border-radius: 5px;
+  color: white;
+  background-color:  #40B25C; 
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+  opacity: 0.7;
+}
+
+button:hover{
+  background-color:green;
+}
